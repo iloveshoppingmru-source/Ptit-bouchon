@@ -63,32 +63,7 @@ const toggleFavorite=(id)=>{const f=getFavorites();const i=f.indexOf(id);if(i>=0
 const bgStyle=(type,color,img)=>type==="image"&&img?{backgroundImage:`url(${img})`,backgroundSize:"cover",backgroundPosition:"center"}:{background:color};
 
 // ==========================================
-// DEFAULT DATA
-// ==========================================
-const DEFAULT={
-  settings:{
-    propertyName:"P'tit Bouchon", tagline:"Villa face à la mer - Île Maurice",
-    phone:"+230 5250 7300", email:"cdesign@intnet.mu",
-    website:"", whatsapp:"+23052507300", instagram:"",
-    checkIn:"08:00", checkOut:"11:00",
-    address:"Public Beach Road, Plaine Magnien, Grand Port, Mauritius 52404",
-    villaLat:"-20.4310", villaLng:"57.6659",
-    headerBg:SEA.navy, headerText:SEA.sand,
-    footerBg:SEA.navy, footerText:SEA.sand,
-    accentColor:SEA.ocean,
-    cardBorderColor:SEA.border,
-    cardLabelColor:SEA.ocean,
-    emojiSize:32,
-    quickEmojiSize:36,
-    cardFontSize:10,
-    heroFontSize:52,
-    letterSpacing:2,
-    bodyBg:SEA.offWhite, bodyText:SEA.text, cardBg:SEA.cardBg,
-    fontFamily:"Cormorant Garamond", bodyFont:"Montserrat",
-    headerBgType:"image", headerBgImage:"https://a0.muscache.com/im/pictures/miso/Hosting-54153972/original/ec3d996c-b4c4-4eec-801e-e74527da4d99.jpeg",
-    footerBgType:"color", footerBgImage:"",
-    bodyBgType:"color", bodyBgImage:"",
-  },
+
   checkin:{
     wifiName:"PtitBouchon_5G", wifiPass:"bienvenue2024",
     accessCode:"1234", lockboxCode:"5678",
