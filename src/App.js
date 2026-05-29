@@ -10,22 +10,6 @@ const CAT_COLORS = ["#e07b54","#2e86ab","#5dab5d","#7b5ea7","#d4a843","#c47a3a",
 const PAGE_ICONS = ["🏡","📖","🌴","🏖️","🍽️","🚗","🔑","📋","ℹ️","🗺️","🎉","🌊","🌿","💡","🚿","🛁","📺","📶","🎵","🌺","🌅","🏝️","🦋","🌙","🧹","🔐","🌡️","🐾","👶","♿","🎁","🍾"];
 const generateId = () => Math.random().toString(36).substr(2,9);
 
-// -- EMOJI ANIMATION MAP -----------------
-const EMOJI_ANIM={
-  "🍽️":"anim-wobble","🏖️":"anim-float","🛒":"anim-rubber","🤿":"anim-flip",
-  "👁️":"anim-pulse","🥐":"anim-bounce","🏧":"anim-shake","⛽":"anim-spin",
-  "🏥":"anim-heart","🍹":"anim-swing","☕":"anim-float","🌴":"anim-swing",
-  "🎭":"anim-tada","🏄":"anim-wobble","🚤":"anim-float","🎣":"anim-bounce",
-  "🌺":"anim-pulse","🎪":"anim-jello","🗺️":"anim-float","🎯":"anim-zoom",
-  "🎨":"anim-rubber","🏊":"anim-float","🚴":"anim-spin","🌊":"anim-float",
-  "🛖":"anim-wobble","🏰":"anim-zoom","⛪":"anim-pulse","🌿":"anim-swing",
-  "🦀":"anim-shake","🎵":"anim-bounce","🛍️":"anim-rubber","🧘":"anim-float",
-  "🪂":"anim-float","🌋":"anim-pulse","🦋":"anim-flip",
-  // quick actions
-  "🔑":"anim-shake","🌅":"anim-float","❤️":"anim-heart","📷":"anim-flip",
-  "📞":"anim-bounce","🎬":"anim-flip","🏡":"anim-float",
-  // defaults
-};
 
 // ==========================================
 // THEME - Bord de mer
